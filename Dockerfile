@@ -21,7 +21,7 @@ ENV CONDA_DEFAULT_ENV=craft
 
 # 3. 克隆项目代码
 WORKDIR /workspace
-RUN git clone https://github.com/clovaai/CRAFT-pytorch.git
+RUN git clone https://github.com/god-ead/CRAFT-pytorch.git
 
 # 4. 下载通用预训练权重
 #RUN mkdir -p /workspace/craft/weights && \
