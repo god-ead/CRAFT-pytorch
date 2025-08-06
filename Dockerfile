@@ -1,4 +1,4 @@
-FROM nvcr.io/nvidia/cuda:12.1.1-runtime-ubuntu22.0
+FROM nvcr.io/nvidia/cuda:12.1.1-runtime-ubuntu22.04
 
 # 1. 基础工具
 RUN apt-get update && \
